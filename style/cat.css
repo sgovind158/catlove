@@ -1,0 +1,232 @@
+#nav {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 40px;
+  border: 1px solid navajowhite;
+  border-radius: 20px;
+  background-color: tan;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient(to right, rgb(131, 9, 231), black);
+  color: beige;
+  justify-content: space-evenly;
+}
+
+#nav > h1 > a {
+  color: beige;
+  text-decoration: none;
+  cursor: pointer;
+  transition-delay: 1s;
+}
+
+#nav > h1 > a:hover {
+  color: goldenrod;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 35px;
+
+  width: 100px;
+  height: 100px;
+
+  transition: width 1s;
+}
+
+#nav:hover {
+  background-image: linear-gradient(black, rgb(131, 9, 231));
+}
+/* navDone */
+
+/* dis */
+#show {
+  width: 50%;
+  height: auto;
+  /* border: 1px solid black; */
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#show img {
+  display: block;
+  width: 95%;
+  height: 10%;
+  /* border: 1px solid black; */
+  margin: auto;
+  border-radius: 20px;
+  align-items: center;
+  margin-top: 10px;
+  transition: transform 0.2s; /* Animation */
+
+  margin: 0 auto;
+}
+
+#show img:hover {
+  transform: scale(0.8);
+}
+
+.div2 {
+  width: 80%;
+  /* border: 1px solid black; */
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+  background-color: blueviolet;
+  background-image: linear-gradient(to right, rgb(131, 9, 231), black);
+  cursor: pointer;
+  font-size: 25px;
+  color: whitesmoke;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: transform 0.2s; /* Animation */
+
+  margin: 0 auto;
+}
+.div2 a {
+  font-size: 35px;
+  text-decoration: none;
+  color: rgb(216, 22, 206);
+  padding-bottom: 20px;
+}
+
+.div2:hover {
+  transform: scale(0.9);
+}
+
+/* medium */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  #nav {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 40px;
+    border: 1px solid navajowhite;
+    border-radius: 20px;
+    background-color: tan;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(to right, rgb(131, 9, 231), black);
+    color: beige;
+    justify-content: space-evenly;
+  }
+
+  #nav > h1 > a {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+    transition-delay: 1s;
+  }
+
+  #nav > h1 > a:hover {
+    color: goldenrod;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 35px;
+
+    width: 100px;
+    height: 100px;
+
+    transition: width 1s;
+  }
+
+  #nav:hover {
+    background-image: linear-gradient(black, rgb(131, 9, 231));
+  }
+
+  #show {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+
+/* small */
+
+@media all and (min-width: 320px) and (max-width: 467px) {
+  #nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid navajowhite;
+    border-radius: 20px;
+    background-color: tan;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(to right, rgb(131, 9, 231), black);
+    color: beige;
+    /* justify-content: space-evenly; */
+    font-size: 10px;
+  }
+
+  #nav > h1 > a {
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+    transition-delay: 1s;
+  }
+
+  #nav > h1 > a:hover {
+    color: goldenrod;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+
+    /* width: 100px;
+height: 100px; */
+
+    transition: width 1s;
+  }
+
+  #nav:hover {
+    background-image: linear-gradient(black, rgb(131, 9, 231));
+  }
+
+  #show {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .div2 {
+    width: 80%;
+    /* border: 1px solid black; */
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, rgb(131, 9, 231), black);
+    cursor: pointer;
+    font-size: 15px;
+    color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: transform 0.2s; /* Animation */
+
+    margin: 0 auto;
+  }
+  .div2 a {
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(216, 22, 206);
+    padding-bottom: 20px;
+  }
+
+  .div2:hover {
+    transform: scale(0.9);
+  }
+}
